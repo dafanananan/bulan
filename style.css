@@ -1,0 +1,175 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #f6fff4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  nav {
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+  }
+  
+  nav h2 {
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    padding: 20px 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #a5d6a7;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    color: #1b5e20;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #388e3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .btn:hover {
+    background-color: #2e7d32;
+  }
+  
+  section {
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    color: #1b5e20;
+    margin: 20px auto 20px auto;
+    background-color: #e8f5e9;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 8px;
+  }  
+  
+  
+  .cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .card h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #388e3c;
+  }
+  
+  .card p {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .card strong {
+    color: #2e7d32;
+    font-size: 1.1em;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e8f5e9;
+    color: #388e3c;
+    margin-top: 30px;
+    font-weight: 500;
+  }
+
+  #kontak {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  #kontak p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #333;
+    max-width: 500px;
+  }
+  
+  
+  /* Responsif untuk layar kecil */
+  @media (max-width: 768px) {
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  }
+  
